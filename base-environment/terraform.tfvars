@@ -1,21 +1,21 @@
 # Set in this file your deployment variables
 # Specify the Azure values
-azure-client-id     = "xxxxx-xxxxx-xxxxx-xxxxx"
-azure-client-secret = "xxxxx-xxxxx-xxxxx-xxxxx"
-azure-subscription  = "xxxxx-xxxxx-xxxxx-xxxxx"
-azure-tenant        = "xxxxx-xxxxx-xxxxx-xxxxx"
+azure-client-id     = "2fb87d6e-1634-4cbc-9f88-1b11748b69fe"
+azure-client-secret = "C0Xe~NR1E9Agn~.but1a_0K0ECwX4Na8vE"
+azure-subscription  = "440bde9c-dba9-4811-b94d-a56d499c31ba"
+azure-tenant        = "01605c2e-84df-4dfc-af6c-4f706350e670"
 
 # Specify where you want to deploy it and where you are coming from
-location                = "France Central"
-my-pub-ip               = "x.x.x.x/32"
+location                = "West US 2"
+my-pub-ip               = "179.113.96.0/24"
 
 # Management details
 mgmt-sku-enabled        = true
-mgmt-dns-suffix         = "xxxxx"
-mgmt-admin-pwd          = "xxxxx"
+mgmt-dns-suffix         = "joseaz0101"
+mgmt-admin-pwd          = "Cpwins1!Cpwins1!Cpwins1!"
 
 # VMspoke details
 vmspoke-sku-enabled     = true
-vmspoke-usr             = "xxxxx"
-vmspoke-pwd             = "xxxxx"
+vmspoke-usr             = "adminadmin"
+vmspoke-pwd             = "Cpwins1!Cpwins1!Cpwins1!"
 spokes-default-gateway  = "172.16.1.4"
