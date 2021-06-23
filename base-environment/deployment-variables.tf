@@ -3,25 +3,25 @@ variable "azure-client-id" {
     description = "Insert your application client-id"
     type = string
     sensitive = true
-    default = "2fb87d6e-1634-4cbc-9f88-1b11748b69fe"
+    default = "NNNNNNNNNNNNNNNNNNNNN"
 } 
 variable "azure-client-secret" {
     description = "Insert your application client-secret"
     type = string
     sensitive = true
-    default = "C0Xe~NR1E9Agn~.but1a_0K0ECwX4Na8vE"
+    default = "NNNNNNNNNNN"
 }
 variable "azure-subscription" {
     description = "Insert your subscription-id"
     type = string
     sensitive = true
-    default = "440bde9c-dba9-4811-b94d-a56d499c31ba"
+    default = "NNNNNNNNNNNNNNNNNNNNN"
 }
 variable "azure-tenant" {
     description = "Insert your active-directory-id"
     type = string
     sensitive = true
-    default = "01605c2e-84df-4dfc-af6c-4f706350e670"
+    default = "NNNNNNNNNNNNNNNNNNNNN"
 }
 
 variable "location" {
