@@ -2,32 +2,38 @@
 variable "azure-client-id" {
     description = "Insert your application client-id"
     type = string
-    sensitive = true    
+    sensitive = true
+    default = "2fb87d6e-1634-4cbc-9f88-1b11748b69fe"
 } 
 variable "azure-client-secret" {
     description = "Insert your application client-secret"
     type = string
     sensitive = true
+    default = "C0Xe~NR1E9Agn~.but1a_0K0ECwX4Na8vE"
 }
 variable "azure-subscription" {
     description = "Insert your subscription-id"
     type = string
     sensitive = true
+    default = "440bde9c-dba9-4811-b94d-a56d499c31ba"
 }
 variable "azure-tenant" {
     description = "Insert your active-directory-id"
     type = string
     sensitive = true
+    default = "01605c2e-84df-4dfc-af6c-4f706350e670"
 }
 
 variable "location" {
     description = "Choose where to deploy the environment"
     type = string
+    default = "West US 2"
 }
 
 variable "my-pub-ip" {
     description = "Put your public-ip"
     type = string
+    default ="179.113.97.204/32"
 }
 
 variable "mgmt-sku-enabled" {
@@ -38,12 +44,14 @@ variable "mgmt-sku-enabled" {
 variable "mgmt-dns-suffix" {
     description = "This is the public DNS suffix of your mgmt FQDN"
     type = string
+    default = "iratfv01"
 }
 
 variable "mgmt-admin-pwd" {
     description = "Choose your management admin password"
     type = string
     sensitive = true
+    default = "Cpwins1!Cpwins1!"
 }
 
 variable "deploy-vmspoke" {
@@ -60,11 +68,13 @@ variable "vmspoke-sku-enabled" {
 variable "vmspoke-usr" {
     description = "Set the user for login to vmspoke machines"
     type = string
+    default = "iraadminv01"
 }
 variable "vmspoke-pwd" {
     description = "Set the password for login to vmspoke machines"    
     type = string
     sensitive = true
+    default = "Cpwins1!Cpwins1!"
 }
 variable "spokes-default-gateway" {
     description = "This is going to be the default-gateway for your spokes subnets"
