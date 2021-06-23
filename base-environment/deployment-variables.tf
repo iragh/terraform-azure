@@ -51,7 +51,7 @@ variable "mgmt-admin-pwd" {
     description = "Choose your management admin password"
     type = string
     sensitive = true
-    default = "Cpwins1!Cpwins1!"
+    default = "NNNNNNNNNNNNNNNNNNNNN"
 }
 
 variable "deploy-vmspoke" {
@@ -74,7 +74,7 @@ variable "vmspoke-pwd" {
     description = "Set the password for login to vmspoke machines"    
     type = string
     sensitive = true
-    default = "Cpwins1!Cpwins1!"
+    default = "NNNNNNNNNNNNNNNNNNNNN"
 }
 variable "spokes-default-gateway" {
     description = "This is going to be the default-gateway for your spokes subnets"
