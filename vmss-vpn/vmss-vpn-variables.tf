@@ -1,6 +1,6 @@
 variable "azure-client-id" {
     description = "Insert your application client-id"
-    default = "xxxxx"
+    default = "jfilho@checkpoint.com"
 } 
 variable "azure-client-secret" {
     description = "Insert your application client-secret"
